@@ -1,0 +1,24 @@
+name = "Tip"
+surname = "Rok"
+age = 30
+age2 = "30"
+
+print(age+age)
+print(age*10)
+print(name)
+
+
+weight = 80 != 70
+is_equqa = len("Tip") == len(name)
+is_adult = age > 18
+is_valid = is_adult or is_equqa
+and_test = False and True
+or_test = False or False
+
+
+print(and_test)
+print(is_valid)
+print(weight)
+print(is_equqa)
+print(is_adult)
+print(or_test)
