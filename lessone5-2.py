@@ -30,11 +30,11 @@ class Income:
         return f"{self.name} {self.amount} {self.date}"
 
 
-#def calc_sum(incomes):
- #   result = 0
-  #  for income in incomes:
-   #     result += income.amount
-    #return result
+def calc_sum(incomes):
+    result = 0
+    for income in incomes:
+        result += income.amount
+    return result
 
 def main():
     expenses = []
@@ -71,7 +71,7 @@ def main():
                 print(income)
 
         if option == 6:
-            print()
+            print(calc_sum(income))
 
         if option == 7:
             print("Выход...")
