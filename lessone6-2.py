@@ -17,7 +17,7 @@ class Country:
 
     @name.setter
     def name(self, value):
-        if value = "Kazakhstan":
+        if value == "Kazakhstan":
             print("WAR!!")
         else:
             self.name = value
